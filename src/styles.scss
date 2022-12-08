@@ -1,1 +1,8 @@
+$feature-flags: (//make have 16 column and not 12 (default)
+  grid-columns-16: true
+);//declared this primary and after import carbon to work
+
 /* You can add global styles to this file, and also import other style files */
+@import '~carbon-components/scss/globals/scss/styles';//import styles of carbon
+@import './assets/scss/carbon-overrides.scss';
+
