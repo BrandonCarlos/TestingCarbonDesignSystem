@@ -14,6 +14,8 @@ import UserAvatar20 from '@carbon/icons/es/user--avatar/20';
 
 // Carbon-components-angular default imports
 import { UIShellModule, IconModule } from 'carbon-components-angular';
+import { GraphQLModule } from './graphql.module';
+import { HttpClientModule } from '@angular/common/http';
 
 // import { RouterModule, Routes } from '@angular/router';
 
@@ -33,6 +35,8 @@ import { UIShellModule, IconModule } from 'carbon-components-angular';
     AppRoutingModule,
     UIShellModule,
     IconModule,
+    GraphQLModule,
+    HttpClientModule,
     // RouterModule.forRoot(
     //   appRoutes,
     //   { enableTracing: true }
