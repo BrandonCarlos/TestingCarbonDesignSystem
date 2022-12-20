@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common'; // important to can using direct
 
 import { HomeRoutingModule } from './home-routing.module';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { InfoModule } from './../info/info.module';
 import { GridModule, BreadcrumbModule, ButtonModule, TabsModule } from 'carbon-components-angular';
 
 @NgModule({
@@ -14,6 +15,7 @@ import { GridModule, BreadcrumbModule, ButtonModule, TabsModule } from 'carbon-c
     BreadcrumbModule, // component of carbon
     ButtonModule,
     TabsModule,
+    InfoModule
   ]
 })
 export class HomeModule { }

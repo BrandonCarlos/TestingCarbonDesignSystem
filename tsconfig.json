@@ -15,6 +15,8 @@
       "es2018",
       "dom",
       "esnext.asynciterable"
-    ]
+    ],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
   }
 }
